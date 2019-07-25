@@ -1,0 +1,69 @@
+/* 
+	Generic 
+	------------------------------------------------
+*/
+body {
+  font-family: raleway; }
+
+.background-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.table {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .table .table-cell {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle; }
+
+/*
+	Header
+	-----------------------------------------
+ */
+.header-container {
+  position: relative;
+  display: block;
+  height: 326px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  background-color: powderblue; }
+
+.site-title {
+  color: #fff;
+  margin: 0;
+  font-size: 80px; }
+
+.site-description {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 1em; }
+
+.nav-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/* 
+	Navbar 
+	------------------------------------------------
+*/
+.navbar-ecf {
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  min-height: auto;
+  margin-bottom: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.5); }
+  .navbar-ecf ul {
+    float: none;
+    background-color: blanchedalmond; }
+  .navbar-ecf li {
+    float: none;
+    display: inline-block; }
+
+/*# sourceMappingURL=ecf.css.map */
